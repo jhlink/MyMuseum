@@ -1,0 +1,7 @@
+*.csproj
+*.sln
+*.userprefs
+NE-LFS-Museum/Library
+*.DS_Store
+NE-LFS-Museum/Temp
+NE-LFS-Museum/obj
