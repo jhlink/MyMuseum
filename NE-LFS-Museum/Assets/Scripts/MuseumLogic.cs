@@ -21,7 +21,7 @@ public class MuseumLogic : MonoBehaviour {
 	}
 
 	public void Move(GameObject waypoint) {
-		Debug.Log ("End of puzzle display");
+		Debug.Log ("Move to waypoint: " + waypoint.name.ToString());
 
 		iTween.MoveTo (player, 
 			iTween.Hash (
@@ -31,8 +31,4 @@ public class MuseumLogic : MonoBehaviour {
 			)
 		);
 	}
-		
-		
-
-
 }
