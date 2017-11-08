@@ -6,6 +6,10 @@ public class MuseumLogic : MonoBehaviour {
 	public GameObject player;
 	public GameObject eventSystem;
 
+	public GameObject startUI;
+	public GameObject introAudioHolder;
+
+
 	public float height = 2;
 	public float maxMoveDistance = 10;
 
@@ -19,6 +23,12 @@ public class MuseumLogic : MonoBehaviour {
 	void Update () {
 
 	}
+
+	public void startGuidedTour() {
+		startUI.SetActive(false);
+		introAudioHolder.GetComponent<GvrAudioSource> ().Play ();
+	}
+		
 
 	public void Move(GameObject waypoint) {
 		Debug.Log ("Move to waypoint: " + waypoint.name.ToString());
