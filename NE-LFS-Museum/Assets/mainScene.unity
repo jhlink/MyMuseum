@@ -57,7 +57,7 @@ LightmapSettings:
     serializedVersion: 9
     m_Resolution: 2
     m_BakeResolution: 40
-    m_TextureWidth: 1024
+    m_TextureWidth: 2048
     m_TextureHeight: 1024
     m_AO: 1
     m_AOMaxDistance: 2
@@ -66,7 +66,7 @@ LightmapSettings:
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
-    m_TextureCompression: 1
+    m_TextureCompression: 0
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
@@ -159,6 +159,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (64)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -218,6 +228,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -254,7 +274,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -265,7 +285,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -325,7 +345,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -336,7 +356,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -434,6 +454,11 @@ Prefab:
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
       value: 1.000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
@@ -594,6 +619,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -669,6 +699,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -727,6 +762,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -803,6 +848,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -876,6 +926,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1059,6 +1114,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -1427,6 +1492,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -1485,6 +1560,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -1545,6 +1630,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -1603,6 +1698,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -1667,6 +1772,11 @@ Prefab:
     - target: {fileID: 1000012735760268, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_Name
       value: Wall_4-4 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
@@ -1735,6 +1845,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -1799,6 +1919,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -1857,6 +1987,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (55)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -1917,6 +2057,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -1976,6 +2126,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -1997,7 +2157,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &165114146
 Transform:
@@ -2046,7 +2206,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -2057,7 +2217,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -2130,7 +2290,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -2141,7 +2301,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -2210,6 +2370,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -2357,6 +2527,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -2432,6 +2607,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -2499,6 +2679,16 @@ Prefab:
       propertyPath: m_Name
       value: Portable_wall (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -2515,7 +2705,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &204547794
 Transform:
@@ -2682,6 +2872,11 @@ Prefab:
       propertyPath: m_Name
       value: Wall_4-4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -2705,7 +2900,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &218409458
 Light:
   m_ObjectHideFlags: 0
@@ -2916,6 +3111,11 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
   m_IsPrefabParent: 0
@@ -2987,6 +3187,16 @@ Prefab:
     - target: {fileID: 4000010476239296, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
@@ -3260,7 +3470,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -3271,7 +3481,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -3381,6 +3591,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -3456,6 +3676,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -3529,6 +3754,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3648,6 +3878,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -3706,6 +3946,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -3774,6 +4024,16 @@ Prefab:
       propertyPath: m_Name
       value: Portable_wall (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -3823,7 +4083,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -3834,7 +4094,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -3951,6 +4211,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -4017,6 +4287,16 @@ Prefab:
     - target: {fileID: 4000010476239296, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
@@ -4164,6 +4444,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -4230,6 +4515,16 @@ Prefab:
     - target: {fileID: 1000013185961336, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
       propertyPath: m_Name
       value: Portable_wall (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
@@ -4306,6 +4601,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -4379,7 +4679,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -4390,7 +4690,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -4565,6 +4865,16 @@ Prefab:
       propertyPath: m_Name
       value: Portable_wall (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -4624,6 +4934,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -4673,7 +4993,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -4684,7 +5004,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -4888,6 +5208,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -4946,6 +5276,11 @@ Prefab:
     - target: {fileID: 1000012735760268, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_Name
       value: Wall_4-4 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
@@ -5064,6 +5399,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -5100,7 +5440,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -5111,7 +5451,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -5203,6 +5543,11 @@ Prefab:
     - target: {fileID: 1000014040998798, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
@@ -5373,6 +5718,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -5409,7 +5759,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -5420,7 +5770,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -5511,6 +5861,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -5585,6 +5945,11 @@ Prefab:
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
       value: 1.000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
@@ -5764,6 +6129,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -5830,6 +6205,16 @@ Prefab:
     - target: {fileID: 4000010476239296, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
@@ -5900,6 +6285,11 @@ Prefab:
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
       value: 1.000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
@@ -6031,6 +6421,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -6089,6 +6489,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -6157,6 +6567,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -6193,7 +6613,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -6204,7 +6624,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -6295,6 +6715,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -6363,6 +6793,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -6557,6 +6992,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -6616,6 +7061,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -6652,7 +7107,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -6663,7 +7118,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -6745,6 +7200,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -6875,7 +7340,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -6886,7 +7351,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -6983,6 +7448,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7116,7 +7586,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -7127,7 +7597,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -7209,6 +7679,11 @@ Prefab:
     - target: {fileID: 1000012735760268, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_Name
       value: Wall_4-4 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
@@ -7345,6 +7820,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (42)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -7418,6 +7903,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -7508,6 +7998,11 @@ Prefab:
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
@@ -7639,7 +8134,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -7650,7 +8145,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -7800,6 +8295,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -7938,6 +8438,16 @@ Prefab:
       propertyPath: m_Name
       value: Portable_wall (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -8016,6 +8526,11 @@ Prefab:
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
@@ -8152,6 +8667,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -8210,6 +8735,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -8277,6 +8812,16 @@ Prefab:
     - target: {fileID: 4000010476239296, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
@@ -8358,6 +8903,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -8425,6 +8975,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -8478,6 +9038,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -8568,7 +9138,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &736727956
 Transform:
@@ -8698,6 +9268,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -8771,6 +9351,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -8916,7 +9501,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &755271424
 Transform:
@@ -9004,6 +9589,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -9062,6 +9657,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -9216,6 +9821,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -9283,6 +9898,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -9341,6 +9966,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -9408,6 +10043,16 @@ Prefab:
     - target: {fileID: 4000010476239296, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
@@ -9481,6 +10126,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -9512,7 +10167,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -9523,7 +10178,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -9729,7 +10384,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &849133364
 Transform:
@@ -9805,6 +10460,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -9863,6 +10528,11 @@ Prefab:
     - target: {fileID: 1000012735760268, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_Name
       value: Wall_4-4 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
@@ -9948,6 +10618,11 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
   m_IsPrefabParent: 0
@@ -10011,6 +10686,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -10080,6 +10765,11 @@ Prefab:
     - target: {fileID: 1000014040998798, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
@@ -10307,6 +10997,11 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
   m_IsPrefabParent: 0
@@ -10442,6 +11137,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (62)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -10551,6 +11256,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -10640,6 +11355,11 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
   m_IsPrefabParent: 0
@@ -10703,6 +11423,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -10779,6 +11509,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -10854,6 +11589,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -10912,6 +11652,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -10972,6 +11722,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -11031,6 +11791,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -11067,7 +11837,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -11078,7 +11848,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -11186,6 +11956,11 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
   m_IsPrefabParent: 0
@@ -11227,7 +12002,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -11238,7 +12013,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -11321,6 +12096,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -11379,6 +12164,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -11545,6 +12340,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -11566,7 +12366,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1017527770
 Transform:
@@ -12001,6 +12801,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -12055,7 +12865,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -12066,7 +12876,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -12312,6 +13122,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -12371,6 +13186,11 @@ Prefab:
       propertyPath: m_Name
       value: Wall_4-4 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -12393,7 +13213,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1082414549
 Transform:
@@ -12542,7 +13362,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -12553,7 +13373,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -12639,6 +13459,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -12675,7 +13500,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -12686,7 +13511,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -12935,6 +13760,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -12994,6 +13829,16 @@ Prefab:
       propertyPath: m_Name
       value: support column
       objectReference: {fileID: 0}
+    - target: {fileID: 23000011576790060, guid: 0b9662d841a209a4e9138ee7c203c0e9,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000011576790060, guid: 0b9662d841a209a4e9138ee7c203c0e9,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b9662d841a209a4e9138ee7c203c0e9, type: 2}
   m_IsPrefabParent: 0
@@ -13052,6 +13897,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -13277,7 +14132,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -13288,7 +14143,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -13378,6 +14233,16 @@ Prefab:
     - target: {fileID: 4000010476239296, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
@@ -13577,6 +14442,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -13660,6 +14535,11 @@ Prefab:
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
@@ -13892,6 +14772,11 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -14110,6 +14995,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -14132,7 +15027,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1213256474
 Transform:
@@ -14252,6 +15147,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -14454,6 +15359,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -14600,6 +15510,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -14663,6 +15578,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (75)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -14793,6 +15718,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -14949,6 +15884,11 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
   m_IsPrefabParent: 0
@@ -15013,6 +15953,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -15062,7 +16012,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -15073,7 +16023,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -15137,6 +16087,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013003143470, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -15222,6 +16182,11 @@ Prefab:
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
@@ -15311,6 +16276,11 @@ Prefab:
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
@@ -15534,6 +16504,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -15654,7 +16634,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -15665,7 +16645,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -15747,6 +16727,11 @@ Prefab:
     - target: {fileID: 1000012735760268, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_Name
       value: Wall_4-4 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
@@ -15878,6 +16863,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -15936,6 +16931,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -16011,6 +17016,11 @@ Prefab:
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
       value: 1.000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
@@ -16225,6 +17235,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -16298,6 +17313,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -16438,6 +17458,16 @@ Prefab:
       propertyPath: m_Name
       value: Portable_wall (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -16498,6 +17528,16 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 174233e90b83a45dc908c039e018804e, type: 2}
+    - target: {fileID: 23000013003319354, guid: f3418d4e848286248b7f54af9ce7c818,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000013003319354, guid: f3418d4e848286248b7f54af9ce7c818,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f3418d4e848286248b7f54af9ce7c818, type: 2}
   m_IsPrefabParent: 0
@@ -16565,6 +17605,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -16623,6 +17673,11 @@ Prefab:
     - target: {fileID: 1000012735760268, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_Name
       value: Wall_4-4 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
@@ -16683,6 +17738,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -16741,6 +17806,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -16809,6 +17884,16 @@ Prefab:
       propertyPath: m_Name
       value: Portable_wall (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -16867,6 +17952,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -17149,6 +18244,11 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
   m_IsPrefabParent: 0
@@ -17202,6 +18302,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -17473,7 +18583,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -17484,7 +18594,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -17737,6 +18847,16 @@ Prefab:
     - target: {fileID: 4000010476239296, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
@@ -18031,6 +19151,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -18097,6 +19227,16 @@ Prefab:
     - target: {fileID: 4000010476239296, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
@@ -18219,6 +19359,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -18293,6 +19443,11 @@ Prefab:
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
       value: 1.000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
@@ -18647,6 +19802,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -18722,6 +19887,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -18781,6 +19951,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -18839,6 +20019,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -18913,6 +20103,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -18999,6 +20194,11 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
   m_IsPrefabParent: 0
@@ -19071,6 +20271,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -19129,6 +20339,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -19205,6 +20425,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -19268,6 +20493,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (71)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -19341,6 +20576,16 @@ Prefab:
       propertyPath: m_Name
       value: Portable_wall (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -19408,6 +20653,16 @@ Prefab:
       propertyPath: m_Name
       value: Portable_wall (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -19444,7 +20699,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -19455,7 +20710,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -19546,6 +20801,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -19621,6 +20886,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -19657,7 +20927,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -19668,7 +20938,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -19941,7 +21211,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -19952,7 +21222,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -20122,6 +21392,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -20144,7 +21419,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!114 &1728939075
 MonoBehaviour:
@@ -20303,6 +21578,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -20339,7 +21624,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -20350,7 +21635,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -20666,6 +21951,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -20758,6 +22053,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -20889,6 +22194,11 @@ Prefab:
       propertyPath: m_Name
       value: Wall_4-4 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -20925,7 +22235,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -20936,7 +22246,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -21035,6 +22345,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -21071,7 +22386,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -21082,7 +22397,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -21165,6 +22480,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -21231,7 +22556,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -21242,7 +22567,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -21333,6 +22658,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -21369,7 +22704,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -21380,7 +22715,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -21559,6 +22894,11 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
   m_IsPrefabParent: 0
@@ -21632,6 +22972,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -21709,6 +23054,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -21784,6 +23134,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -21820,7 +23175,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -21831,7 +23186,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -22143,6 +23498,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -22227,6 +23587,11 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
   m_IsPrefabParent: 0
@@ -22307,6 +23672,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -22366,6 +23736,11 @@ Prefab:
       propertyPath: m_Name
       value: Wall_4-4 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -22424,6 +23799,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -22715,7 +24100,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -22726,7 +24111,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -22825,6 +24210,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -22883,6 +24273,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -22959,6 +24359,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -23026,6 +24431,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -23070,7 +24485,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -23081,7 +24496,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -23209,6 +24624,16 @@ Prefab:
       propertyPath: m_Name
       value: Portable_wall (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -23253,7 +24678,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -23264,7 +24689,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -23333,6 +24758,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -23408,6 +24843,11 @@ Prefab:
     - target: {fileID: 4000012819753398, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
       propertyPath: m_LocalScale.x
       value: 1.000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
@@ -23557,6 +24997,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -23632,6 +25082,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -23699,6 +25154,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -23757,6 +25222,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -23825,6 +25300,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -23892,6 +25377,16 @@ Prefab:
       propertyPath: m_Name
       value: Portable_wall (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -23954,6 +25449,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -23990,7 +25495,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -24001,7 +25506,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -24061,7 +25566,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -24072,7 +25577,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -24205,6 +25710,11 @@ Prefab:
       propertyPath: m_Name
       value: Wall_4-4 (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -24263,6 +25773,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (76)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -24339,6 +25859,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -24406,6 +25931,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -24464,6 +25999,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -24611,6 +26156,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -24713,6 +26263,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (67)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -24856,6 +26416,11 @@ Prefab:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012279065808, guid: d357c2753742a4851b7b99977a8b411f,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d357c2753742a4851b7b99977a8b411f, type: 2}
   m_IsPrefabParent: 0
@@ -24928,6 +26493,16 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
   m_IsPrefabParent: 0
@@ -24989,6 +26564,16 @@ Prefab:
     - target: {fileID: 4000010476239296, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012351962262, guid: 3d7b7316ae89b0e4e88111499c1ba7f5,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d7b7316ae89b0e4e88111499c1ba7f5, type: 2}
@@ -25190,7 +26775,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_MotionVectors: 1
-  m_LightProbeUsage: 1
+  m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
   m_Materials:
   - {fileID: 2100000, guid: a0e3ab1331d5f447a85c344f18faea60, type: 2}
@@ -25201,7 +26786,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
+  m_PreserveUVs: 1
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_SelectedEditorRenderState: 3
@@ -25355,6 +26940,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -25430,6 +27025,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 1.000001
       objectReference: {fileID: 0}
+    - target: {fileID: 23000010226975908, guid: a35c43ed8a4013b4fb40b938e414ff25,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a35c43ed8a4013b4fb40b938e414ff25, type: 2}
   m_IsPrefabParent: 0
@@ -25488,6 +27088,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
@@ -25548,6 +27158,16 @@ Prefab:
       propertyPath: m_Name
       value: ceiling_2-6 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
   m_IsPrefabParent: 0
@@ -25606,6 +27226,16 @@ Prefab:
     - target: {fileID: 1000013656246024, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
       propertyPath: m_Name
       value: ceiling_2-6 (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23000012829259328, guid: 1f5331f8e837dfd49a594d621d7b75b6,
+        type: 2}
+      propertyPath: m_PreserveUVs
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1f5331f8e837dfd49a594d621d7b75b6, type: 2}
