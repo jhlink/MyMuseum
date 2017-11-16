@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4000010670910742}
   - component: {fileID: 33000013321035850}
   - component: {fileID: 23000014209588918}
+  - component: {fileID: 64878819823897846}
   m_Layer: 0
   m_Name: doorway_2-4
   m_TagString: Untagged
@@ -79,4 +80,18 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013300320050}
+  m_Mesh: {fileID: 4300014, guid: ffad064668ec02446b5c0e21cb59764d, type: 3}
+--- !u!64 &64878819823897846
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013300320050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300014, guid: ffad064668ec02446b5c0e21cb59764d, type: 3}
