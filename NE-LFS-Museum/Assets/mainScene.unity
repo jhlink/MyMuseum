@@ -1214,7 +1214,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: gainDb
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: sourceMaxDistance
@@ -3189,6 +3189,21 @@ Prefab:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: 377c71bc71b7a487288bb073a481c1e5, type: 3}
+    - target: {fileID: 114662645250640608, guid: be7cbbf6fd9764a8a898a6425129bd30,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 740222343}
+    - target: {fileID: 114662645250640608, guid: be7cbbf6fd9764a8a898a6425129bd30,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: playAudioExperience
+      objectReference: {fileID: 0}
+    - target: {fileID: 114662645250640608, guid: be7cbbf6fd9764a8a898a6425129bd30,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1112271434}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: be7cbbf6fd9764a8a898a6425129bd30, type: 2}
   m_IsPrefabParent: 0
@@ -6129,7 +6144,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: gainDb
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: sourceMaxDistance
@@ -7610,7 +7625,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: gainDb
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: sourceMaxDistance
@@ -9927,7 +9942,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: gainDb
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: sourceMaxDistance
@@ -10528,7 +10543,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: gainDb
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: sourceMaxDistance
@@ -12557,7 +12572,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: gainDb
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: sourceMaxDistance
@@ -13849,7 +13864,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 434824, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.66
+      value: -6.186
       objectReference: {fileID: 0}
     - target: {fileID: 434824, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: m_LocalPosition.y
@@ -13857,7 +13872,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 434824, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 3.925
+      value: 5.584
       objectReference: {fileID: 0}
     - target: {fileID: 434824, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: m_LocalRotation.x
@@ -13917,7 +13932,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: gainDb
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: sourceMaxDistance
@@ -13929,6 +13944,10 @@ Prefab:
 --- !u!4 &1112271433 stripped
 Transform:
   m_PrefabParentObject: {fileID: 434824, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
+  m_PrefabInternal: {fileID: 1112271432}
+--- !u!1 &1112271434 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 106086, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
   m_PrefabInternal: {fileID: 1112271432}
 --- !u!4 &1116052644 stripped
 Transform:
@@ -22124,7 +22143,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: gainDb
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: sourceMaxDistance
@@ -23609,7 +23628,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: gainDb
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11461060, guid: 82b70a42d67ea49d4a2e3bd826e9a512, type: 2}
       propertyPath: sourceMaxDistance
