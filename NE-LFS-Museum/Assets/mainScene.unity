@@ -3641,11 +3641,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4267501243671308, guid: 038eb8d7ec48748f88d4c84c4502975d, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1716514755686312, guid: 038eb8d7ec48748f88d4c84c4502975d, type: 2}
       propertyPath: m_Name
       value: Video_Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267501243671308, guid: 038eb8d7ec48748f88d4c84c4502975d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -67
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 038eb8d7ec48748f88d4c84c4502975d, type: 2}
@@ -4709,7 +4713,7 @@ RectTransform:
   m_Children:
   - {fileID: 1178248263}
   m_Father: {fileID: 1666180270}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -9477,6 +9481,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4000013003143470, guid: 1f5331f8e837dfd49a594d621d7b75b6,
     type: 2}
   m_PrefabInternal: {fileID: 715986520}
+--- !u!1 &721295931 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1099636510935184, guid: 038eb8d7ec48748f88d4c84c4502975d,
+    type: 2}
+  m_PrefabInternal: {fileID: 2112441029}
 --- !u!1 &733445735
 GameObject:
   m_ObjectHideFlags: 0
@@ -27671,6 +27680,21 @@ Prefab:
       propertyPath: m_Name
       value: Depth Cues
       objectReference: {fileID: 0}
+    - target: {fileID: 114494636296046780, guid: 038eb8d7ec48748f88d4c84c4502975d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 740222343}
+    - target: {fileID: 114494636296046780, guid: 038eb8d7ec48748f88d4c84c4502975d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: playVideoExperience
+      objectReference: {fileID: 0}
+    - target: {fileID: 114494636296046780, guid: 038eb8d7ec48748f88d4c84c4502975d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 721295931}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 038eb8d7ec48748f88d4c84c4502975d, type: 2}
   m_IsPrefabParent: 0
