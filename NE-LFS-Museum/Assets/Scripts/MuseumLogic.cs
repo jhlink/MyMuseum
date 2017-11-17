@@ -17,6 +17,7 @@ public class MuseumLogic : MonoBehaviour {
 	private GameObject _previousWaypoint = null;
 	private GameObject _previousVideoPlayerHolder = null;
 	private VideoPlayer _tempVideoPlayer = null;
+	private GvrAudioSource _tempAudioSource = null;
 	private bool playStartFlag = false;
 
 
@@ -44,7 +45,13 @@ public class MuseumLogic : MonoBehaviour {
 	}
 
 	public void playAudioExperience(GameObject audioClip) {
-		audioClip.GetComponent<GvrAudioSource> ().Play ();
+		
+		if (_tempVideoPlayer) {
+			resetVideoPlayerController ();
+		}
+
+		_tempAudioSource = audioClip.GetComponent<GvrAudioSource> ();
+		_tempAudioSource.Play ();
 	}
 
 	public void setFlag(VideoPlayer source) {
@@ -63,6 +70,8 @@ public class MuseumLogic : MonoBehaviour {
 
 		if (_tempVideoPlayer) {
 			resetVideoPlayerController ();
+		} else if (_tempAudioSource) {
+			_tempAudioSource.Stop ();
 		}
 
 		_tempVideoPlayer = videoPlayerHolder.GetComponentInChildren<VideoPlayer> ();
