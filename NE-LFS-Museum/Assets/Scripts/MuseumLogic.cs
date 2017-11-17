@@ -59,12 +59,18 @@ public class MuseumLogic : MonoBehaviour {
 	}
 
 	public void resetVideoPlayerController() {
+		_tempVideoPlayer.Stop ();
+		_tempVideoPlayer.targetTexture.DiscardContents ();
+		_tempVideoPlayer.targetTexture.Release ();
+
 		_previousVideoPlayerHolder.SetActive (false);
 		_previousVideoPlayerHolder = null;
 		_tempVideoPlayer.started += null;
 		_tempVideoPlayer = null;
 		playStartFlag = false;
 	}
+
+
 
 	public void playVideoExperience(GameObject videoPlayerHolder) {
 
@@ -73,7 +79,7 @@ public class MuseumLogic : MonoBehaviour {
 		} else if (_tempAudioSource) {
 			_tempAudioSource.Stop ();
 		}
-
+			
 		_tempVideoPlayer = videoPlayerHolder.GetComponentInChildren<VideoPlayer> ();
 		_previousVideoPlayerHolder = videoPlayerHolder;
 		_previousVideoPlayerHolder.SetActive (true);
