@@ -3393,6 +3393,11 @@ Prefab:
       propertyPath: m_EnabledAudioTracks.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114494636296046780, guid: 038eb8d7ec48748f88d4c84c4502975d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224398559646008132, guid: 038eb8d7ec48748f88d4c84c4502975d,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -3511,6 +3516,48 @@ Prefab:
     - target: {fileID: 1191908208131184, guid: 038eb8d7ec48748f88d4c84c4502975d, type: 2}
       propertyPath: m_Name
       value: Vergence-Accommodation
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099636510935184, guid: 038eb8d7ec48748f88d4c84c4502975d, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1191908208131184, guid: 038eb8d7ec48748f88d4c84c4502975d, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114494636296046780, guid: 038eb8d7ec48748f88d4c84c4502975d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 740222343}
+    - target: {fileID: 114494636296046780, guid: 038eb8d7ec48748f88d4c84c4502975d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: playVideoExperience
+      objectReference: {fileID: 0}
+    - target: {fileID: 114494636296046780, guid: 038eb8d7ec48748f88d4c84c4502975d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 895428051}
+    - target: {fileID: 114494636296046780, guid: 038eb8d7ec48748f88d4c84c4502975d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114494636296046780, guid: 038eb8d7ec48748f88d4c84c4502975d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114494636296046780, guid: 038eb8d7ec48748f88d4c84c4502975d,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1099636510935184, guid: 038eb8d7ec48748f88d4c84c4502975d, type: 2}
+      propertyPath: m_Name
+      value: Station4_VPQuad
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 038eb8d7ec48748f88d4c84c4502975d, type: 2}
@@ -11367,6 +11414,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4000013003143470, guid: 1f5331f8e837dfd49a594d621d7b75b6,
     type: 2}
   m_PrefabInternal: {fileID: 892559075}
+--- !u!1 &895428051 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1099636510935184, guid: 038eb8d7ec48748f88d4c84c4502975d,
+    type: 2}
+  m_PrefabInternal: {fileID: 262533476}
 --- !u!1001 &895543900
 Prefab:
   m_ObjectHideFlags: 0
