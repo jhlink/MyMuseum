@@ -1,6 +1,9 @@
 Name: James Kim
+
 Google VR SDK version: 1.6.0
+
 Unity version: 2017.1.0f3 
+
 Platform: Android
 
 Submission Notes:
